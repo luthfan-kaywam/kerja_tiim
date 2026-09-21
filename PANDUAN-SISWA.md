@@ -166,7 +166,13 @@ rsync -avz --exclude='vendor' --exclude='node_modules' --exclude='.git' --exclud
 Contoh:
 ```bash
 cd /path/to/api-laravel
-rsync -avz --exclude='vendor' --exclude='node_modules' --exclude='.git' backend/ ade-setiawan@100.110.141.44:/home/idnsolo_remote/personal/ade-setiawan/app/backend/
+rsync -avz --exclude='vendor' --exclude='node_modules' --exclude='.git' backend/ ade-setiawan@100.110.141.44:/home/idnsolo_remote/personal/d/app/backend/
+```
+
+(nain server) :
+```bash 
+cd /Users/w/kerja_tiim
+rsync -avz --exclude='vendor' --exclude='node_modules' --exclude='.git' --exclude='storage/logs/*' backend/ ade-setiawan@100.110.141.44:/home/idnsolo_remote/personal/dzulqarnain-abu-muhammad/app/backend/
 ```
 
 **Windows (PowerShell — tar + scp):**
@@ -218,6 +224,11 @@ ssh GANTI_DENGAN_USERNAME_KAMU@100.110.141.44
 Contoh:
 ```bash
 ssh ade-setiawan@100.110.141.44
+```
+
+(nain) :
+```bash
+ssh dzulqarnain-abu-muhammad@100.110.141.44
 ```
 
 Masukkan password saat diminta.
